@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">EZ Currency Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="spinner1_prompt">Select currency to convert from</string>
+    <string name="spinner2_prompt">Select currency to convert to</string>
+  <string-array name="currencies">
+    <item>Select a currency</item>
+    <item>AED: United Arab Emirates</item>
+    <item>ARS: Argentina</item>
+    <item>AUD: Australia</item>
+    <item>BGN: Bulgaria</item>
+    <item>BRL: Brazil</item>
+    <item>BSD: Bahamas</item>
+    <item>CAD: Canada</item>
+    <item>CHF: Switzerland</item>
+    <item>CLP: Chile</item>
+    <item>CNY: China</item>
+    <item>COP: Colombia</item>
+    <item>CZK: Czech Republic</item>
+    <item>DKK: Denmark</item>
+    <item>DOP: Dominican Republic</item>
+    <item>EGP: Egypt</item>
+    <item>EUR: Euro</item>
+    <item>FJD: Fiji</item>
+    <item>GBP: United Kingdom</item>
+    <item>GTQ: Guatemala</item>
+    <item>HKD: Hong Kong</item>
+    <item>HRK: Croatia</item>
+    <item>HUF: Hungary</item>
+    <item>IDR: Indonesia</item>
+    <item>ILS: Israel</item>
+    <item>INR: India</item>
+    <item>ISK: Iceland</item>
+    <item>JPY: Japan</item>
+    <item>KRW: Korea</item>
+    <item>KZT: Kazakhstan</item>
+    <item>MXN: Mexico</item>
+    <item>MYR: Malaysia</item>
+    <item>NOK: Norway</item>
+    <item>NZD: New Zealand</item>
+    <item>PAB: Panama</item>
+    <item>PEN: Peru</item>
+    <item>PHP: Philippines</item>
+    <item>PKR: Pakistan</item>
+    <item>PLN: Poland</item>
+    <item>PYG: Paraguay</item>
+    <item>RON: Romania</item>
+    <item>RUB: Russia</item>
+    <item>SAR: Saudi Arabia</item>
+    <item>SEK: Sweden</item>
+    <item>SGD: Singapore</item>
+    <item>THB: Thailand</item>
+    <item>TRY: Turkey</item>
+    <item>TWD: Taiwan</item>
+    <item>UAH: Ukraine</item>
+    <item>USD: United States</item>
+    <item>UYU: Uruguay</item>
+    <item>ZAR: South Africa</item>
+  </string-array>
+</resources>

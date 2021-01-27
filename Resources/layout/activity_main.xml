@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Convert from:"
+        android:id="@+id/textView1"
+    />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/spinner1"
+        android:prompt="@string/spinner1_prompt"
+     />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Convert to:"
+        android:id="@+id/textView2"
+    />
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:id="@+id/spinner2"
+        android:prompt="@string/spinner2_prompt"
+    />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="305dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:hint="Enter amount"
+        android:id="@+id/editText1" 
+    />
+        <Button
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="25dip"
+            android:background="@drawable/switch_new2"
+            android:id="@+id/switchbtn" />
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="30dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:id="@+id/textView3" 
+    />
+
+    <TextView
+        android:textSize="30dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:id="@+id/textView4" 
+    />
+
+
+</LinearLayout>
